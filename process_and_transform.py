@@ -3,7 +3,8 @@ import json
 import apache_beam as beam
 from apache_beam.options.pipeline_options import PipelineOptions
 
-subscription_id='projects/ems-dp-candidates/subscriptions/taxirides-ek-74865320378'
+#Please add your subscription_id
+subscription_id=<Subscription_id>
 dict = {}
 
 def aggregation(datetime,status,passenger_count):
