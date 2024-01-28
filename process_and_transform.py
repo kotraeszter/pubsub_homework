@@ -3,8 +3,8 @@ import json
 import apache_beam as beam
 from apache_beam.options.pipeline_options import PipelineOptions
 
-#Please add your subscription_id
-subscription_id=<Subscription_id>
+#Please add your subscription_id and comment out
+#subscription_id=
 dict = {}
 
 def aggregation(datetime,status,passenger_count):
